@@ -1,9 +1,9 @@
-package edu.wm.cs.cs301.game2048;
+//package game2048;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import edu.wm.cs.cs301.game2048.GameState;
+import game2048.GameState;
 
 /**
  * 

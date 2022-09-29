@@ -1,4 +1,4 @@
-package edu.wm.cs.cs301.game2048;
+package game2048;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -10,7 +10,6 @@ public class State implements GameState {
 	public Random random = new Random();
 	
 	public State(GameState original) {
-		// TODO Auto-generated constructor stub
 		// copy each value from original into the new GameState.gameArray
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
@@ -19,7 +18,6 @@ public class State implements GameState {
 		}
 	}
 	
-	// TODO Auto-generated constructor stub 
 	public State() {
 		// since there is no original to copy, create a GameState with all 0's
 		this.setEmptyBoard();
@@ -398,7 +396,7 @@ public class State implements GameState {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

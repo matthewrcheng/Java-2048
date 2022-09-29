@@ -1,4 +1,4 @@
-package edu.wm.cs.cs301.game2048;
+package game2048;
 
 public interface GameState {
 

@@ -21,17 +21,15 @@
  * of the game, the GUI part from the internal game representation.
  */
 
-package edu.wm.cs.cs301.game2048;
+package game2048;
 
 import javax.swing.*;
 
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.util.Random;
 
 /**
  * @author Konstantin Bulenkov
