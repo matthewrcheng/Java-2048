@@ -351,7 +351,7 @@ public class Game2048 extends JPanel {
 			frame.setVisible(true);
 		}
 		
-		if (1 == args.length) {
+		if (1 >= args.length) {
 			System.out.println("Operating in automated mode");
 			Game2048 game2048 = new Game2048(false);
 			frame.add(game2048);
